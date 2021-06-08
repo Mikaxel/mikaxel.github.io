@@ -80,142 +80,7 @@
 
 								<h4>Concept Art</h4>
 
-								<hr />
-
-								<h4 id="sisalto">Luomani sisältö peliin ja opitut asiat</h4>
-
-								<h5>Dungeon 1 (puisto)</h5>
-
-									<p>Projektimme ensimmäistä demoa varten minulla oli tehtävänä mallintaa alue, jossa pelaaja kohtaa vihollisen ja joutuu taistella sitä vastaan.</p>
-									<p>Alue koostuu asuinkerrostalojen ympäröimästä sisäpihasta, jonka keskustasta lähtee neljä reittiä kerrostalojen läpi. Alueelta löytyy penkkien ja roskakorien ohella erilaisia leikkilaitteita.</p>
-									<div class="col-4"><span class="image fit"><img src="images/puisto.jpg" alt="puisto" /></span></div>
-
-									<p>Sisäpihan penkkeissä ja roskakoreissa toistuu tekniikka, jota käytin projektissa useaan otteeseen eli saman tekstuurin käyttäminen useassa eri objektissa. Koska sekä penkki että roskakori ovat samaa, yksinkertaista betonimateriaalia, niin en kokenut tarpeellikseksi luoda niille omia tekstuureitaan. Tämä on yksi tapa, jolla peliä on optimoitu.</p>
-
-									
-									<div class="col-4"><span class="image fit"><img src="images/betonipenkit.jpg" alt="betonia" /></span></div>
-
-									<p>Laitteisiin otettiin mallia oikeassa maailmassa esiintyvistä esineistä. Puistossa oleva liukumäki on mallinnettu referenssikuvan mukaan, joka löytyi googlettamalla brutalismia.</p>
-									<div class="col-4"><span class="image fit"><img src="images/liukumaki_model.jpg" alt="liukumäki" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/liukumaki.jpg" alt="liukumäen referenssikuva" /></span></div>
-
-									<p>Joidenkin 3D-mallien suhteen halusin käyttää omaa luovuuttani. Esimerkiksi sisäpihan keinun keskiosana toimii betoniporsas.</p>
-									<div class="col-4"><span class="image fit"><img src="images/keinu.jpg" alt="keinu" /></span></div>
-									
-								<h5>Dungeon 2 (kerrostalo)</h5>
-									<p>Jossain vaiheessa projektia ensimmäinen dungeon kuopattiin ja aloimme toteuttamaan uutta kenttää, joka sijoittuu rähjäiseen kerrostaloon, jonka viholliset ovat ottaneet tukikohdakseen. </p>
-
-									<p>Scrum master Jan suunnitteli kentälle pohjan Excelin avulla. Noudatin mallintamisessa pohjaa pääosin, mutta joissain tapauksissa, kuten rappukäytävässä, tein omia muutoksia, jotka tuntuivat realistisilta. Esimerkiksi rappukäytävä oli suunnitelmassa hyvin pieni, joten tein siitä enemmän pelaajanmentävän.</p>
-
-									<p>Tämä on kentän ensimmäinen versio, joka on toteutettu modulaariseilla seinä- ja lattiapaloilla. Unity-puolen kehittäjät eivät tykänneet siitä miten paljon aikaa light mapin luomiseen meni, joten minun piti tehdä seinistä ja lattioista erilliset objektinsa.</p>
-
-									<div class="col-4"><span class="image fit"><img src="images/dungeon2.1.png" alt="dungeon2" /></span></div>	
-
-
-									<p>Uudessa versiossa seinät ja lattiat ovat kokonaan yhtä isoa objektia ja niistä on poistettu kaikki turhat facet optimoinnin takaamiseksi.</p>
-
-									<div class="col-4"><span class="image fit"><img src="images/dungeon2.2.png" alt="dungeon2" /></span></div>
-									
-									<p>Dungeon 2 on täynnä erilaisia huonekaluja, lamppuja ja roskia, joten mallinsin viimeisten sprinttien aikana niitä runsaasti.</p>
-
-									<p>Jokaisessa mallissa on käytetty Blenderin proseduraalisia tekstuureja, esimerkiksi tummat ja likaiset tahrat ovat tehty noise-tekstuurin avulla.</p>
-									<div class="col-4"><span class="image fit"><img src="images/koristeet.png" alt="huonekaluja" /></span></div>
-									<p>Huonekaluja ja laitteita löytyy laidasta laitaan.</p>
-									<div class="col-4"><span class="image fit"><img src="images/koristeet2.png" alt="huonekaluja" /></span></div>
-	
-
-								<h5>Pelaaja</h5>
-
-									<p>Pelaajan varustukseen kuuluvat vihreä hupullinen takki, vihreät housut, varsikengät ja suojanaamari.</p>
-									<div class="col-4"><span class="image fit"><img src="images/pelaaja.jpg" alt="pelaaja" /></span></div>
-
-									<p>Pelaajan malli wireframe-versiona</p>
-									<div class="col-4"><span class="image fit"><img src="images/pelaaja_wireframe.jpg" alt="pelaaja" /></span></div>
-
-									<p>Pelaajan tekstuuri</p>
-									<div class="col-4"><span class="image fit"><img src="images/player_body.png" alt="pelaajan tekstuuri" /></span></div>
-									<p>Sain pelaajat housut näyttämään ryppyyntyneiltä ja luonnollisilta käyttämällä textures.com -sivulta ladattua paperi-tekstuuria apunani.</p>
-									<div class="col-4"><span class="image fit"><img src="images/paperi.jpg" alt="paperi" /></span></div>
-
-								<h5>Vihollinen</h5>
-
-									<p>Pelissä on tällä hetkellä yksi vihollinen, joka on tarkoitus toimia niin ikään tavallisena vihollisena, jolla ei ole minkäänlaisia erityiskykyjä ja joka tulee vastaan useaan kertaan pelissä.</p>
-									<p>Vihollisen 3D-malli on hyvin samanlainen pelaajan kanssa ja on pukeutunut samalla tapaa peittävästi. Vaatteet ovat tummat, alakasvoilla on huivi ja päässä ovat tyylikkäät violetit aurinkolasit.</p>
-
-									<div class="col-4"><span class="image fit"><img src="images/vihollinen.jpg" alt="vihollinen" /></span></div>
-
-									<p>Vihollisen tekstuuri.</p>
-
-									<div class="col-4"><span class="image fit"><img src="images/enemy.png" alt="vihollinen" /></span></div>
-
-								<h5>Entiteetti</h5>
-
-									<p>Pelissä olevista entiteeteistä sain ensimmäisenä valmistettua Vaenan. </p>
-									<p>Vaena on saanut vaikutteita Kalevalan Väinämöiseltä. Tämä näkyy muun muuassa siinä, että Vaena käyttää aseenaan miekkaa ja maskia, joka on koottu hauenpäästä (esikuvana kantele, jonka Väinämöinen teki hauen leukaluusta.)</p>
-									<p>Vaenan viitta on erillinen objekti ja sen on tarkoitus liehua pelissä.</p>
-
-									<div class="col-4"><span class="image fit"><img src="images/vaena.jpg" alt="vaena" /></span></div>
-
-									<p>Vaenan miekka</p>
-									<div class="col-4"><span class="image fit"><img src="images/miekka.png" alt="miekka" /></span></div>
-
-
-
-								<h5>Ase</h5>
-
-									<p>Yksi pelin tärkeimmistä ominaisuuksista on pelaajan rynnäkkökivääri, jota pelaaja kehittää pelin edetessä hankkien siihen uusia osia tai lisävarusteita. Erilaiset osat tuottavat erilaisia ominaisuuksia, esimerkiksi punapistetähtäimellä saa parannettua tarkkuutta.</p>
-									<p>Pelaajan muokkaamaton ase on mallinnettu AK-47 -tyyppisten aseiden mukaan. Osat ovat eri objekteja ja niitä pystyy pelissä vaihtamaan toisiin.</p>
-									<div class="col-4"><span class="image fit"><img src="images/ak01.jpg" alt="ase" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/ak02.jpg" alt="ase" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/ak03.jpg" alt="ase" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/ak04.jpg" alt="ase" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/ak05.jpg" alt="ase" /></span></div>
-									<p>Aseen puutekstuuri on luotu proseduraalisesti Blenderissä yhdistämällä wave-tekstuuria ja kahta oranssinruskeaa väriä.</p>
-									<p>Ensimmäiseksi luodaan puulle tyypillisiä renkaita.</p>
-									<div class="col-4"><span class="image fit"><img src="images/puumateriaali.png" alt="puu" /></span></div>
-									<p>Seuraavaksi laitan wave-tekstuurin hieman vääristystä. Alkaa jo näyttää paremmalta.</p>
-									<div class="col-4"><span class="image fit"><img src="images/puumateriaali2.png" alt="puu" /></span></div>
-									<p>Lopuksi yhdistetään lopulliseen tekstuuriin wave-tekstuurin mustan ja valkoisen väriarvon mukaan kahta eri sävyistä ruskeaa väriä. Hyvältä näyttää!</p>
-									<div class="col-4"><span class="image fit"><img src="images/puumateriaali3.png" alt="puu" /></span></div>
-
-									<p>Projektin aikana opin huimasti uusia asioita Blenderistä:</p>
-									<ul>
-										<li>Proseduraalisten tekstuureiden monipuolinen käyttö</li>
-										<li>Materiaalien beikkaaminen tekstuureiksi</li>
-										<li>3D-mallien suoraviivaisempi vienti valmiiksi peleihin</li>
-										<li>Nopeampia työtapoja ja parempia työkaluja</li>										
-									</ul>
-
-
-								<hr />
-
-								<h4 id="haasteet">Haasteet projektissa</h4>
-
-								<p>Projektissa oli useita haasteita.</p>
-								
-								<p>3D-mallintamisessa saattoi tulla satunnaisesti virheitä, esimerkiksi objektin skaala saattoi olla viallinen tai objektin UV-map ei toiminut oikealla tavalla.</p>
-								<p>Joissain asioissa saattoi olla eri taajuudella kuin toinen ryhmäläinen. Saatoimme olla esimerkiksi eri mieltä siitä miltä jonkin assetin pitää näyttää.</p>
-								<p>Toisinaan saattoi jumittua johonkin tehtävään pitkästi ajaksi, mikä saattoi haitata oman toiminnan lisäksi toisen ryhmäläisen toimintaa, jos hän on riippuvainen siitä, että saanko esimerkiksi hahmon valmiiksi.</p>
-								<p>Myös henkinen jaksaminen oli muutamina päivinä koetuksella. Projekti saattoi viedä niin suuren osan päivän ajatuksista, että muut arkielämän rutiinit jäävät vähemmälle. Ja mitä tulee etätyöskentelyyn, se oli toiminut itselläni yllättävän hyvin.</p>
-
-								<hr />
-
-								<h4 id="reflektointi">Reflektointi</h4>
-								<p>Tähän väliin sitten omia kokemuksia projektista ja osaamisen kehitystä.</p>
-								<p>Pääsin mielestäni kaikkiin tavoitteisiini. Onnistuin valmistamaan valmiita peliassetteja ja kehityin samalla paremmaksi 3D-mallintajaksi.</p>
-								<p>Useimmiten projektin aikana tuntui kuitenkin siltä, että minulla ei ollut mahdollisuutta haastaa itseäni paremmin, esimerkiksi vaativamman 3D-mallin muodossa.</p>
-								<p>Jouduin myös projektin aikana opettemaan muille ryhmäläisille asioita Blenderissä, mikä sai minut huomaamaan miten vaikeaa opettaminen voi olla.</p>
-								
-
-								<hr />
-
-								<h4 id="tulevaisuus">Tulevaisuus</h4>
-								<p>Aion projektin jälkeen jatkaa 3D-mallintamista ja kehittyä lajissa entistä paremmaksi. Tavoitteena on panostaa entistä vaativimpiin malleihin rakennuksista pelihahmoihin.</p>
-								<p>Ohjelmistona toimii lähtökohtaisesti tuttu ja turvallinen Blender. Ajattelin myös laajentaa osaamistani Substance Painterin kaltaiseen ohjelmistoon, jonka avulla voin laajentaa osaamistani teksturoinnista ja materiaaleista.</p>
-								<p>Mielessäni on käynyt myös ajatus kehittää itsenäisesti 3D-grafiikkapainotteista Unity-peliä, jonka avulla voisin näyttää mahdollisille työnantajille pelinkehitykseen liittyvää osaamista, kuten ohjelmointia, audio-puolta ja grafiikkaa.</p>
-								<p>Minua kiinnostaisi tulevaisuudessa työskennellä peliteollisuudessa monella eri osa-alueella. Tämä projekti tukee erityisesti graafisen puolen ammattivalintoja. Ticorporaten myötä sain arvokasta kokemusta projektityöskentelystä ja valmiiden peliassettien luomisesta.</p>
-								<p>En myöskään poissulje yrittäjäksi ryhtymistä, mikä mahdollistaa vapaammat kädet pelinkehityksen parissa.</p>
-								
+								<hr />						
 								
 							</div>
 						</section>
@@ -228,7 +93,7 @@
 							<li><a href="https://github.com/Mikaxel" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>				
 						</ul>
 						<ul class="copyright">
-							<li>&copy; Mikael Salmela 2020</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Mikael Salmela 2021</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</footer>
 
